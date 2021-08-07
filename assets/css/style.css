@@ -1,0 +1,473 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+#banner--section {
+    background: #2D25A0;
+    padding: 86px 0 79px 0;
+}
+
+#banner--section>.content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#banner--section>.content .left {
+    width: 50%;
+}
+
+#banner--section>.content .left .content {
+    padding: 156px;
+}
+
+#banner--section>.content .left .content h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+#banner--section>.content .left .content a {
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#banner--section>.content .left .content a i {
+    transition: margin-left 0.5s;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+#banner--section>.content .left .content a:hover i {
+    transition: margin-left 0.5s;
+    margin-left: 15px;
+}
+
+#banner--section>.content .right {
+    text-align: center;
+    width: 50%;
+}
+
+#banner--section>.content .right img {
+    width: 100%;
+    height: 428px;
+    transition: transform 5s;
+    object-fit: contain;
+}
+
+#banner--section>.content .right img:hover {
+    transform: scale(1.5);
+    transition: transform 5s;
+}
+
+#player--bio {
+    padding: 70px 210px 165px 210px;
+}
+
+#player--bio .players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+#player--bio .players .player {
+    transition: transform 5s;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+#player--bio .players .player img {
+    width: 100%;
+    height: 256px;
+    margin-bottom: 9px;
+    object-fit: cover;
+}
+
+#player--bio .players .player h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    font-feature-settings: "liga" off;
+    color: #18191F;
+    margin-bottom: 10px;
+}
+
+#player--bio .players .player p {
+    text-align: justify;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: "liga" off;
+    color: #6C6C6C;
+    margin: 0;
+    margin-bottom: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+#player--bio .players .player:hover {
+    transform: scale(1.1);
+    transition: transform 5s;
+}
+
+#video--section {
+    text-align: center;
+    margin-bottom: 165px;
+}
+
+#patners--section {
+    padding: 0 210px 165px;
+}
+
+#patners--section .patners {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#footer--section {
+    text-align: center;
+}
+
+#footer--section .content .logo {
+    margin-bottom: 13px;
+}
+
+#footer--section .content .logo img {
+    height: 110px;
+}
+
+#footer--section .content .socialicon i {
+    background: #969BAB;
+    padding: 10px;
+    color: lightgray;
+    margin: 0 15px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+#footer--section .content .copyright {
+    padding-top: 4px;
+    padding-bottom: 47px;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 0px) {
+    #banner--section {
+        background: #2D25A0;
+        padding: 50px 0;
+    }
+    #banner--section>.content {
+        display: unset !important;
+        align-items: center;
+        flex-direction: row;
+    }
+    #banner--section>.content .left {
+        width: 100% !important;
+    }
+    #banner--section>.content .left .content {
+        padding: 60px !important;
+    }
+    #banner--section>.content .left .content h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+    #banner--section>.content .left .content a {
+        padding: 10px 24px;
+        background-color: #E02C6D;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    #banner--section>.content .left .content a i {
+        transition: margin-left 0.5s;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    #banner--section>.content .left .content a:hover i {
+        transition: margin-left 0.5s;
+        margin-left: 15px;
+    }
+    #banner--section>.content .right {
+        text-align: center;
+        width: 100% !important;
+    }
+    #banner--section>.content .right img {
+        margin-top: 50px;
+        width: 100% !important;
+        height: auto !important;
+        transition: transform 5s;
+    }
+    #banner--section>.content .right img:hover {
+        transform: scale(1.5);
+        transition: transform 5s;
+    }
+    #player--bio {
+        padding: 30px 20px 30px 20px;
+    }
+    #player--bio .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+    #player--bio .players .player {
+        transition: transform 5s;
+        padding: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+    #player--bio .players .player img {
+        width: 100%;
+        height: 256px;
+        margin-bottom: 9px;
+        object-fit: cover;
+    }
+    #player--bio .players .player h1 {
+        margin: 0;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 40px;
+        font-feature-settings: "liga" off;
+        color: #18191F;
+        margin-bottom: 10px;
+    }
+    #player--bio .players .player p {
+        text-align: justify;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        font-feature-settings: "liga" off;
+        color: #6C6C6C;
+        margin: 0;
+        margin-bottom: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        /* number of lines to show */
+        -webkit-box-orient: vertical;
+    }
+    #player--bio .players .player:hover {
+        transform: scale(1.1);
+        transition: transform 5s;
+    }
+    #video--section {
+        padding: 30px 20px 30px 20px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #video--section iframe {
+        width: 100%;
+        height: 300px;
+    }
+    #patners--section {
+        padding: 30px 20px 30px 20px;
+    }
+    #patners--section .patners {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    #footer--section {
+        text-align: center;
+        margin-top: 50px;
+    }
+    #footer--section .content .logo {
+        margin-bottom: 13px;
+    }
+    #footer--section .content .logo img {
+        height: auto;
+        width: 85%;
+    }
+    #footer--section .content .socialicon i {
+        background: #969BAB;
+        padding: 10px;
+        color: lightgray;
+        margin: 0 10px;
+        font-size: 20px;
+        border-radius: 50%;
+    }
+    #footer--section .content .copyright {
+        padding-top: 4px;
+        padding-bottom: 47px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    #banner--section {
+        background: #2D25A0;
+        padding: 50px 0;
+    }
+    #banner--section>.content {
+        align-items: center;
+        flex-direction: row;
+    }
+    #banner--section>.content .left .content {
+        padding: 30px !important;
+    }
+    #banner--section>.content .left .content h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+    #banner--section>.content .left .content a {
+        padding: 10px 24px;
+        background-color: #E02C6D;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    #banner--section>.content .left .content a i {
+        transition: margin-left 0.5s;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    #banner--section>.content .left .content a:hover i {
+        transition: margin-left 0.5s;
+        margin-left: 15px;
+    }
+    #banner--section>.content .right {
+        text-align: center;
+    }
+    #banner--section>.content .right img {
+        margin-top: 50px;
+        width: 100% !important;
+        height: auto !important;
+        transition: transform 5s;
+    }
+    #banner--section>.content .right img:hover {
+        transform: scale(1.5);
+        transition: transform 5s;
+    }
+    #player--bio {
+        padding: 30px 20px 30px 20px;
+    }
+    #player--bio .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    #player--bio .players .player {
+        transition: transform 5s;
+        padding: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+    #player--bio .players .player img {
+        width: 100%;
+        height: 256px;
+        margin-bottom: 9px;
+        object-fit: cover;
+    }
+    #player--bio .players .player h1 {
+        margin: 0;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 40px;
+        font-feature-settings: "liga" off;
+        color: #18191F;
+        margin-bottom: 10px;
+    }
+    #player--bio .players .player p {
+        text-align: justify;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        font-feature-settings: "liga" off;
+        color: #6C6C6C;
+        margin: 0;
+        margin-bottom: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        /* number of lines to show */
+        -webkit-box-orient: vertical;
+    }
+    #player--bio .players .player:hover {
+        transform: scale(1.1);
+        transition: transform 5s;
+    }
+    #video--section {
+        padding: 30px 20px 30px 20px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #video--section iframe {
+        width: 100%;
+        height: 400px;
+    }
+    #patners--section {
+        padding: 30px 20px 30px 20px;
+    }
+    #patners--section .patners {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    #footer--section {
+        text-align: center;
+        margin-top: 50px;
+    }
+    #footer--section .content .logo {
+        margin-bottom: 13px;
+    }
+    #footer--section .content .logo img {
+        height: auto;
+        width: 50%;
+    }
+    #footer--section .content .socialicon i {
+        background: #969BAB;
+        padding: 10px;
+        color: lightgray;
+        margin: 0 10px;
+        font-size: 20px;
+        border-radius: 50%;
+    }
+    #footer--section .content .copyright {
+        padding-top: 4px;
+        padding-bottom: 47px;
+    }
+}
